@@ -1,0 +1,62 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; */
+    margin-top: 150px;
+    position: relative;
+    font-family: Gilroy-Regular;
+}
+.trainersheader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    color: hsla(0, 0%, 20%, 1);
+    font-size: 36px;
+    font-weight: 700;    
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.arrowleft, .arrowright{
+    width: 45px;
+    height: 45px;    
+}
+.trainerslist{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 24px;
+    margin-top: 75px;
+}
+.trainer{
+    text-align: center;
+}
+.photo{
+    width: 166px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: 1px solid hsla(30, 58%, 93%, 1);
+}
+.trainername{
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 29.4px;
+    margin: 0 auto;
+    margin-top: 25px;
+}
+.trainerabout{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19.6px;
+    margin-top: 15px;
+}

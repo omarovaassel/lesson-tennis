@@ -1,0 +1,50 @@
+.container{
+    width: 100%;
+    /* padding: 40px; */
+    /* margin: 0 auto; */
+    padding: 0 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 150px;
+    /* position: relative; */
+    font-family: Gilroy-Regular;
+}
+.blocktop{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.title{
+    font-size: 36px;
+    font-weight: 700;
+    padding-bottom: 75px;
+}
+.blockbottom{
+    position: relative;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+.arrowleft, .arrowright{
+    width: 45px;
+    height: 45px;    
+}
+.servicesphoto{
+    padding: 15px !important;
+    border: 1px solid hsla(30, 58%, 93%, 1) !important;
+    /* position: relative; */
+}
+.photoname{
+    position: absolute;
+    top: 200px;
+    left: 40px;
+    font-family: Gilroy-Regular;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 37.8px;
+    color: white;
+}

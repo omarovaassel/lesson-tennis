@@ -1,0 +1,73 @@
+.welcomeBanner{
+    background-image: url("../../images/welcome-banner.png");
+    position: absolute;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 1000px;
+    left: 0px;
+    top: 0px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    max-width: 1290px;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    font-family: Gilroy-Regular;
+}
+h1{
+    position: absolute;
+    width: 636px;
+    height: 201px;
+    top: 399px;
+    font-size: 48px !important;
+    font-weight: 700 !important;
+    line-height: 140%;
+    color: hsla(0, 0%, 100%, 1);
+}
+.welcomeBannerMenu{
+    position: absolute;
+    max-width: 1290px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;    
+    bottom: 0;
+    color: hsla(0, 0%, 100%, 1);
+}
+.bannerMenu{
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    width: 315px;
+    height: 150px;
+    padding: 20px;
+    background-color: hsla(246, 38%, 66%, 1);
+}
+.bannerMenuText{
+    display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+}
+h4{
+    font-size: 18px !important;
+    font-weight: 600 !important;
+    line-height: 25.2px;
+}
+.text{
+    font-size: 24px !important;
+    font-weight: 700 !important;
+    line-height: 33.6px;
+    margin-top: 17px;
+}
+.icon{
+    width: 20px;
+    height: 20px;
+    margin-top: 17px;
+}

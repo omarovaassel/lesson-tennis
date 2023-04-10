@@ -1,0 +1,36 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    max-width: 1290px;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    top: 1150px;
+    font-family: Gilroy-Regular;
+}
+.border{
+    border: 1px solid #F7ECE1;
+    padding: 20px 25px 25px 20px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+.title{
+    position: absolute;
+    font-size: 27px !important;
+    font-weight: 700 !important;
+    line-height: 37.8px;
+    color: hsla(0, 0%, 100%, 1);
+    bottom: 40px;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 376px;
+    width: 100%;
+}
+.image {
+    max-width: 376px;
+    width: 100%;
+}

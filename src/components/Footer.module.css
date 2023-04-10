@@ -1,0 +1,28 @@
+.footer{
+    min-width: 1300px;    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 96px;    
+    background: hsla(30, 58%, 93%, 1);
+    font-family: Gilroy-Regular;
+    margin-top: 120px;
+}
+.footerRights{
+    opacity: 0.3;
+    line-height: 140%;
+}
+.footerMenu{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    color: #333333;
+}
+.icon1, .icon2, .icon3{
+    padding: 15px;
+}
+/* .icon1{
+    width: 30px;
+    height: 20px;
+} */

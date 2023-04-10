@@ -1,0 +1,89 @@
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    margin-top: 150px;
+    position: relative;
+    font-family: Gilroy-Regular;
+}
+.block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.text{
+    background-color: hsla(30, 58%, 93%, 1);
+    color: hsla(0, 0%, 20%, 1) !important;
+    margin-left: 35%;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-left: 85px;
+    padding-right: 50px;
+    width: 100%;
+}
+.title1{
+    font-size: 36px;
+    color: hsla(0, 0%, 20%, 1) !important;
+    font-size: 36px !important;
+    font-weight: 700;
+    line-height: 50.4px;
+    margin-bottom: 60px;
+    text-align: left;
+}
+.title2{
+    font-size: 36px;
+    color: hsla(0, 0%, 20%, 1) !important;
+    margin-left: 10%;
+}
+.clubadvantages{
+    margin-top: 58px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    height: 80px;
+}
+.advantage{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    gap: 25px;
+}
+.number{
+    color: hsla(246, 38%, 66%, 1);
+    width: 28.93px;
+    height: 44.8px;
+    font-size: 75px;
+    font-weight: 700;
+    /* top: 50%; */
+    /* bottom: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+.description{
+    font-size: 14px;
+    font-weight: 700;
+    /* position: absolute; */
+    /* top: 50%; */
+    /* bottom: 50%; */
+    /* transform: translate(-50%, -50%); */
+}
+
+
+
+
+p, li{
+    font-size: 14px;
+    line-height: 140%;
+    margin-top: 25px;
+    margin-left: 10%;
+}
+.image{
+    position: absolute;
+    /* top: 50%;
+    margin-top: -45%; */
+}

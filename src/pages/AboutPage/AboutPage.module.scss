@@ -1,0 +1,21 @@
+.container{
+    // max-width: 1200px;
+    // width: 100%;
+    // padding: 40px;
+    // margin: 0 auto;
+    // padding: 0 10px;
+    // display: flex;
+    // flex-direction: row;
+    // align-items: flex-start;
+    // margin-bottom: 150px;
+
+    display: flex;
+    flex-direction: column; 
+    height: 100%;
+    font-family: Gilroy-Regular;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
