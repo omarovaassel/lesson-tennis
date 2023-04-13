@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./DescriptionCards.module.css";
+import s from "./DescriptionCards.module.scss";
 
 import Card1 from "../../images/description-card-1.png";
 import Card2 from "../../images/description-card-2.png";

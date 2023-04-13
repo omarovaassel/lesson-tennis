@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./About.module.css"
+import s from "./About.module.scss"
 
 import AboutPhoto from "../../images/about-photo.png";
 

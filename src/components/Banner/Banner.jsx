@@ -1,15 +1,15 @@
 import React from "react";
 
-import s from "./Banner.module.css";
+import s from "./Banner.module.scss";
 
-import Header from "../components/Header";
-import Footer from "../components/Footer";
+import Header from "../Header/Header";
+import Footer from "../Footer/Footer";
 
 function Banner () {
     return (
         <div className={s.Banner}>
             <div className={s.container}>
-                <Header />
+                {/* <Header /> */}
                 <h1>Новости</h1>
                 {/* <Footer /> */}
             </div>

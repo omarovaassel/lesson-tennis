@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./Prices.module.css";
+import s from "./Prices.module.scss";
 
 import PriceButton from "../../images/PriceButton.png";
 import ArrowLeft from "../../images/arrow-left.png";

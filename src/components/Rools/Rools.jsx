@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from "../ClubInfo/Rools.module.css";
+import s from "./Rools.module.scss";
 
 function Rools () {
     return (

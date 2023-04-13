@@ -1,12 +1,12 @@
 import React from "react";
 
-import s from "./Header.module.css";
+import s from "./Header.module.scss";
 
-import NewsPage from "../pages/NewsPage";
+import NewsPage from "../../pages/NewsPage";
 
-import Logo from "../images/Logo.png";
-import Icon1 from "../images/icon-youtube-white.png";
-import Icon2 from "../images/icon-vk-white.png";
+import Logo from "../../images/Logo.png";
+import Icon1 from "../../images/icon-youtube-white.png";
+import Icon2 from "../../images/icon-vk-white.png";
 
 function Header () {
     return (

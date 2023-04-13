@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./Button.module.css";
+import s from "./Button.module.scss";
 
 function Button ({ className, type = "button", children, disabled = false }) {
     return (

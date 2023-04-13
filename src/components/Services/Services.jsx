@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./Services.module.css";
+import s from "./Services.module.scss";
 
 import ArrowLeft from "../../images/arrow-left.png";
 import ArrowRight from "../../images/arrow-right.png";

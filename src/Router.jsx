@@ -2,15 +2,15 @@ import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import HomePage from "./pages/HomePage";
-import WelcomeBanner from "./components/HomePage/WelcomeBanner";
-import DescriptionCards from "./components/HomePage/DescriptionCards";
-import About from "./components/HomePage/About";
-import Trainers from "./components/HomePage/Trainers";
-import Prices from "./components/HomePage/Prices";
-import Services from "./components/HomePage/Services";
-import AboutClub from "./components/ClubInfo/ClubInfo";
-import Slider from "./components/ClubInfo/Slider";
-import Rools from "./components/ClubInfo/Rools";
+import WelcomeBanner from "./components/WelcomeBanner";
+import DescriptionCards from "./components/DescriptionCards";
+import About from "./components/About";
+import Trainers from "./components/Trainers";
+import Prices from "./components/Prices";
+import Services from "./components/Services";
+import AboutClub from "./components/ClubInfo";
+import Slider from "./components/Slider";
+import Rools from "./components/Rools";
 
 import AboutPage from "./pages/AboutPage";
 import NewsPage from "./pages/NewsPage";

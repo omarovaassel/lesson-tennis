@@ -1,7 +1,7 @@
 import React from "react";
 
-import Button from "../components/Button/Button";
-import s from "./NewsGrid.module.css";
+import Button from "../Button/Button";
+import s from "./NewsGrid.module.scss";
 
 // все что сюда придет - мы складываем в объект props
 function NewsGrid({image, date, text, buttonText = "Подробнее"}) {

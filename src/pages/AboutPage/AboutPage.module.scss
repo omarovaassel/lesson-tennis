@@ -1,14 +1,9 @@
-.container{
-    // max-width: 1200px;
-    // width: 100%;
-    // padding: 40px;
-    // margin: 0 auto;
-    // padding: 0 10px;
-    // display: flex;
-    // flex-direction: row;
-    // align-items: flex-start;
-    // margin-bottom: 150px;
+@import "~/src/styles/mixins";
 
+$headerHeight: 100px;
+$footerHeight: 100px;
+
+.container{    
     display: flex;
     flex-direction: column; 
     height: 100%;
@@ -18,4 +13,18 @@
     display: flex;
     flex-direction: column;
     height: 100%;
+}
+.header {
+    height: $headerHeight;
+}
+.main {
+    min-height: calc(var(--height, 100vh) - $headerHeight - $footerHeight);
+
+    .containerslider{
+        @include container();
+    }
+}
+
+.footer {
+    height: $footerHeight;
 }

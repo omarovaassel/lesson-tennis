@@ -1,6 +1,6 @@
 import React from "react";
 
-import s from "./WelcomeBanner.module.css";
+import s from "./WelcomeBanner.module.scss";
 
 import Header from "../Header";
 // import Footer from "../Footer";

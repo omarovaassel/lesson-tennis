@@ -1,10 +1,10 @@
 import React from "react";
 
-import s from "./Footer.module.css";
+import s from "./Footer.module.scss";
 
-import Icon1 from "../images/icon-youtube.png";
-import Icon2 from "../images/icon-vk.png";
-import Icon3 from "../images/icon-telegram.png";
+import Icon1 from "../../images/icon-youtube.png";
+import Icon2 from "../../images/icon-vk.png";
+import Icon3 from "../../images/icon-telegram.png";
 
 function Footer () {
     return (

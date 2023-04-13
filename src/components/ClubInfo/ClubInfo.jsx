@@ -1,6 +1,6 @@
 import React from 'react';
 
-import s from "../ClubInfo/ClubInfo.module.css";
+import s from "./ClubInfo.module.scss";
 
 import Banner from "../Banner";
 import Footer from "../Footer";
