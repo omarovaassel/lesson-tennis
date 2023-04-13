@@ -1,10 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 import Button from "../Button/Button";
 import s from "./NewsGrid.module.scss";
+import { Link } from "react-router-dom";
+
+const endpoint = process.env.REACT_APP_ENDPOINT || "";
 
 // все что сюда придет - мы складываем в объект props
-function NewsGrid({image, date, text, buttonText = "Подробнее"}) {
+function NewsGrid({id, image, date, text, buttonText = "Подробнее"}) {
+    const [cards, setCards] = useState({});
+
+    useEffect(() => {
+        const getData = async () => {
+          const response = await fetch(`${endpoint}/cards`);
+          const data = await response.json()
+          setCards(data)
+        }
+        getData()
+      }, [])
+
     return (
         <div className={s.container}>
             {/* <div className="news_item"> */}
@@ -15,7 +29,9 @@ function NewsGrid({image, date, text, buttonText = "Подробнее"}) {
                 {/* <Button className="button" color="grey" text="Подробнее"/> */}
                 {/* второй вариант написания текста названия кнопки .children*/}
                 {/* <Button className="button" color="#8D86C9" text="Подробнее">Кнопка</Button> */}
-                <Button>{buttonText}</Button>
+                <div>
+                    <Link to={`/news/${id}`}>{buttonText}</Link>
+                </div> 
             </div>
         </div>
     )

@@ -19,6 +19,7 @@ import Banner from "./components/Banner";
 
 import Header from "./components/Header";
 import Footer from "./components/Footer";
+import SingleNews from "./pages/SingleNews/SingleNews";
 
 
 function Router() {
@@ -49,6 +50,7 @@ function Router() {
                 <Route path="/Footer" element={<Footer />} />
                 
                 <Route path="/news" element={<NewsPage />} /> 
+                <Route path="/news/:newsId" element={<SingleNews />} /> 
             </Routes>
         </BrowserRouter>
     )
